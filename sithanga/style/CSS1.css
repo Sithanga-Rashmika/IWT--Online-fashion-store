@@ -1,0 +1,156 @@
+*{
+	margin:0px;	
+}
+/*this is the body session */
+.abbody{
+	background-color:white;	
+	line-height: 1.8;
+	text-align:justify;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*profile  follow unfollow part*/
+.prodiv{
+	background-image:gray;
+	width:240px;
+	height:175px;
+	float:right;
+	margin-right:30px;
+	border-width:5px;  
+    border-style:groove;
+	border-color:black;
+	margin-top:10px;
+	
+}
+.profile{
+	
+	width:100px;
+	height:100px;
+	margin-left:65px;
+	margin-right:auto;	
+}
+.btfollow{
+	width:80px;
+	margin-left:25px;
+	margin-top:10px;
+	color:black;
+	font-size:15px;
+	border-style:none;
+}
+.btfollow:hover{
+	background-color:green;
+	color:white;
+}
+.btUnfollow{
+	width:100px;
+	margin-left:10px;
+	margin-top:10px;
+	
+	color:black;
+	font-size:15px;
+	border-style:none;
+	border-style:none;
+}
+.btUnfollow:hover{
+	background-color:red;
+	color:white;
+}
+
+.abimg{
+	
+	width: 100%;
+	height:75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+.para1{
+	text-align :justify;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	line-height: 1.8;
+	
+}
+.feedbackhead{
+	text-align:center;
+	padding-bottom:30px;
+	animation:blink 1.8s linear infinite;
+}
+@keyframes blink{
+	0%{opacity:1;}
+	40%{opacity:0;}
+	100%{opacity:1;}
+	
+}
+.feedback{
+	background-color:black;
+	width:520px;
+	height:680px;
+	border-radius: 5px;
+	padding-left:25px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.lable{
+	color:white;
+	float: left;
+	width: 30%;
+	margin-top: 25px;
+	padding-left:2px;
+	
+}
+
+.details{
+	title:full name;
+	width: 65%;
+	padding:10px 10px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	
+}
+.details1{
+	width: 65%;
+	height:200px;
+	padding: 8px;
+	margin-top:2px;
+	border: 1px solid #ccc;
+ 
+}
+.sub{
+	
+	background-color: white;
+	width:480px;
+	padding: 10px;
+	border: none;
+	font-size:16px;
+	margin-left:20px;
+	margin-top:-10px;
+	
+	
+
+}
+.sub:hover{
+	background-color: #04AA6D;
+	color: white;
+}
+.commentdiv1{
+	margin-left:20px;
+	font-size:20px;
+	
+}
+.commentdiv2{
+	background-color:#D3D3D3;
+	
+}
+.comtable{
+	font-size:17px;
+	width:1500px;
+	padding-left:20px;
+	
+}

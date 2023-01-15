@@ -1,0 +1,215 @@
+*{
+	margin:0px;
+}
+/*this is the slider image div*/
+#slider{
+	margin-top:10%;
+	overflow: hidden;
+}
+/*this is the slider image div figure elements*/
+#slider figure{
+	position: relative;
+	width: 6000px;
+	height:200px;
+	animation: 20s slider infinite;
+}
+/*slider image size set*/
+#slider figure img{
+	width: 1000px;
+	height:400px;
+	float: left;
+	}
+/*slide image set*/
+
+.slide{
+	width: 1000px;
+	height:400px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/*this is the time setting of slideshiw*/
+	@keyframes slider{
+		0%{/*if consider of 1 minute as a 100% this (this 0% 20% 25%) are parts of time period*/
+			left: 0;
+		}
+		20%{/*when time 0% to 20% first image show*/
+			left: 0;
+		}
+		25%{/*when time 20% to 25% first image change*/
+			left: -100%;
+		}
+		45%{/*when time 25% to 45% second image show*/
+			left: -100%;
+		}
+		50%{
+			left: -200%;
+		}
+		70%{
+			left: -200%;
+		}
+		75%{
+			left: -300%;
+		}
+		95%{
+			left: -300%;
+		}
+		100%{
+			left: -400%;
+		}
+		
+		
+	}
+
+.setrow{/*contac,address,mail icon fix in a row*/
+	display:inline-flex;
+	flex-wrap: wrap;
+}
+
+.tele{/*telephone icon*/
+	width:120px;
+	height:120px;
+	margin-left: 280px;
+	margin-right: auto;
+}	
+.mail{/*mail icon*/
+	
+	width:105px;
+	height:105px;
+	margin-left: 310px;
+	margin-right: auto;
+	
+}
+.loca{/*address icon*/
+	width:105px;
+	height:105px;
+	margin-left: 320px;
+	margin-right: auto;
+}	
+.setrow1{ /*these are the icon descriptions flex*/
+	display:inline-flex;
+	flex-wrap: wrap;
+}
+.tele1{
+	margin-left: 250px;
+	
+	
+}
+.inquiry{/*inqury div black color */
+	background-color:black;
+	width:500px;
+	height:580px;
+	border-radius: 5px;
+	padding-left:40px;
+	margin-left: 50px;
+	
+}
+.lable{/*lable names alignment*/
+	color:white;
+	float: left;
+	width: 30%;
+	margin-top: 15px;
+	padding-left:2px;
+	
+}
+
+.details{/*this is the box of details*/
+	title:full name;
+	width: 65%;
+	padding:10px 10px;
+	border: 1px solid #ccc;
+	margin-top: 15px;
+	
+}
+.details1{/*decription box*/
+	width: 65%;
+	height:200px;
+	padding: 8px;
+	margin-top:2px;
+	border: 1px solid #ccc;
+ 
+}
+.sub{/*submit button*/
+	
+	
+	width:480px;
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	float:center;
+	font-size:16px;
+	align:left;
+}
+.sub:hover{
+	background-color: #04AA6D;
+	color: white;
+}
+.setrow3{
+	display:inline-flex;
+	flex-wrap: wrap;
+}
+/*blink inquiry*/
+.inquiryhead{
+	padding-left:240px;
+	padding-bottom:30px;
+	animation:blink 1.8s linear infinite;
+	
+}
+
+.textpic{
+	width:80%;
+	height:15 0px;
+	animation:blink 1.8s linear infinite;
+}
+/*blinking code*/
+@keyframes blink{
+	0%{opacity:1;}
+	40%{opacity:0;}
+	100%{opacity:1;}
+	
+}
+
+.item{
+	
+	padding:10px;
+	
+	
+}
+/*create grid*/
+.container1{
+	padding-left:60px;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr ;
+	grid-gap:10px;
+	
+	
+}
+/*blinking item*/
+.item1{
+	grid-row-start: 1/3;
+}
+.item2{
+	grid-row-start: 1/3;
+	
+	padding-top:90px;
+}
+/*this is the error massage display part*/
+.success{
+	background-color:green;
+	width:530px;
+	height:40px;
+	margin-left:50px;
+	text-align:center;
+	color:white;
+}
+/*this is the error massage display part*/
+.error{
+	background-color:red;
+	width:530px;
+	height:40px;
+	margin-left:50px;
+	text-align:center;
+	color:white;
+	
+}
