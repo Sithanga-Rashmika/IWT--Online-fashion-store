@@ -1,0 +1,50 @@
+*{
+	margin:0px;
+}
+.add{
+	width:280px;
+	height:300px;
+	
+}
+
+.imgrow{
+    margin :15%;
+    margin-top: 2em;
+	margin-bottom: 2em;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 2em;
+	
+}
+
+.container_img{
+	background-color:gray;
+	width:280px;
+	height:420px;
+
+}
+.bt{
+	width:90px;
+	height:40px;
+	margin-left:30px;
+	margin-top:10px;
+	border:none;
+}
+.bt:hover{
+	background-color:#04AA6D;
+	color:white;
+}
+.desc{
+	margin-left:10px;
+	margin-top:10px;
+}
+.cart{
+	width:50px;
+	height:40px;
+	margin-left:30px;
+	margin-top:10px;
+	margin-right:50px;
+	float:right;
+}
+
+
